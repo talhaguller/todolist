@@ -1,8 +1,8 @@
 package com.talhaguller.todolist.config;
 
 
-import com.talhaguller.todolist.service.CustomUserDetailsService;
-import com.talhaguller.todolist.service.JwtFilter;
+import com.talhaguller.todolist.security.CustomUserDetailsService;
+import com.talhaguller.todolist.security.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,8 +15,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-
-import java.security.Security;
 
 @Configuration
 @EnableWebSecurity

@@ -1,4 +1,4 @@
-package com.talhaguller.todolist.service;
+package com.talhaguller.todolist.security;
 
 import com.talhaguller.todolist.entity.User;
 import com.talhaguller.todolist.repository.UserRepository;

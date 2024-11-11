@@ -1,4 +1,4 @@
-package com.talhaguller.todolist.service;
+package com.talhaguller.todolist.security;
 
 import com.talhaguller.todolist.config.JwtConfig;
 import io.jsonwebtoken.Claims;
